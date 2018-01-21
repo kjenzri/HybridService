@@ -5,7 +5,7 @@
         <version>1.0.0</version>
         <title>HybridService</title>
         <authors>K. JENZRI</authors>
-        <projectUrl>https://hybridservice.codeplex.com/</projectUrl>
+        <projectUrl>https://github.com/kjenzri/HybridService/</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Hybrid Service provide base class to enhance Windows Service development experience.
 

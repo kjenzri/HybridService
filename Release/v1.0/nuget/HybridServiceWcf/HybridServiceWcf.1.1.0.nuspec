@@ -4,7 +4,7 @@
         <id>HybridServiceWcf</id>
         <version>1.0.0</version>
         <authors>K. JENZRI</authors>
-        <projectUrl>https://hybridservice.codeplex.com/</projectUrl>
+        <projectUrl>https://github.com/kjenzri/HybridService/</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Wcf service hosted under an Hybrid Service. Will run as Console Application on interactive environment otherwise will run as a Windows service.</description>
     </metadata>
