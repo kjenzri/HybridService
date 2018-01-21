@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>HybridServiceWcf</id>
+        <version>1.1.1</version>
+        <authors>K. JENZRI</authors>
+        <projectUrl>https://github.com/kjenzri/HybridService/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Wcf service hosted under an Hybrid Service. Will run as Console Application on interactive environment otherwise will run as a Windows service.</description>
+    </metadata>
+    <files>
+        <file src="lib\HybridService.Core.dll" target="lib\HybridService.Core.dll" />
+        <file src="lib\HybridService.Wcf.dll" target="lib\HybridService.Wcf.dll" />
+    </files>
+</package>
