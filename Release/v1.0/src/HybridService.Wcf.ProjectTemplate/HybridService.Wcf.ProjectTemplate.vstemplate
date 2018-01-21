@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>HybridServiceWcf</Name>
+    <Description>HybridServiceWcf is an HybridService hosting a Wcf services. An HybridService is a console application program that can be installed as Windows service.</Description>
+    <Icon>HybridService.Wcf.ProjectTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>8a917934-e366-446b-9769-524487cd6da9</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ServiceWcf</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">Service1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">IService1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true">packages.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

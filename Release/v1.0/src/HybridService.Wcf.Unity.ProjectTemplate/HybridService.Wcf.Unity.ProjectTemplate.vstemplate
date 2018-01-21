@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>HybridServiceWcfUnity</Name>
+    <Description>HybridServiceWcfUnity is an HybridService hosting Wcf services. Wcf services dependencies can be resolved using Unity container. HybridService is a console application program that can be installed as Windows service.</Description>
+    <Icon>HybridService.Wcf.Unity.ProjectTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>f8f4af4e-9a69-4a26-87e5-b88eeac5902c</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ServiceWcf</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">Service1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">IService1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">IServiceDependency.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">ServiceDependency.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true">packages.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

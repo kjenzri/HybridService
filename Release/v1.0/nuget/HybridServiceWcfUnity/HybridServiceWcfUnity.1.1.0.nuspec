@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>HybridServiceWcfUnity</id>
+        <version>1.0.0</version>
+        <authors>K. JENZRI</authors>
+        <projectUrl>https://hybridservice.codeplex.com/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Wcf service hosted under an Hybrid Service. Will run as Console Application on interactive environment otherwise will run as a Windows service. Services instances will be created using Unity as dependency injection container.</description>
+        <dependencies>
+            <dependency id="Unity" version="4.0.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\..\HybridService.Wcf.Unity\bin\Release\HybridService.Core.dll" target="lib\HybridService.Core.dll" />
+        <file src="..\..\HybridService.Wcf.Unity\bin\Release\HybridService.Wcf.dll" target="lib\HybridService.Wcf.dll" />
+        <file src="..\..\HybridService.Wcf.Unity\bin\Release\HybridService.Wcf.Unity.dll" target="lib\HybridService.Wcf.Unity.dll" />
+    </files>
+</package>

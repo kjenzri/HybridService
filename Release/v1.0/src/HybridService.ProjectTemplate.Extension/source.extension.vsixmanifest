@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="HybridService.ProjectTemplate.Extension.K. JENZRI.a321188e-026d-4fa8-b7cd-f2acfb5eb99e" Version="1.0" Language="en-US" Publisher="K. JENZRI" />
+    <DisplayName>HybridService</DisplayName>
+    <Description xml:space="preserve">An HybridService is a console application program that can be installed as Windows service.</Description>
+    <MoreInfo>https://hybridservice.codeplex.com/</MoreInfo>
+    <Tags>Windows service, Console Application, Wcf</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
+    <InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Enterprise" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="HybridService.ProjectTemplate" d:TargetPath="|HybridService.ProjectTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+  </Assets>
+</PackageManifest>

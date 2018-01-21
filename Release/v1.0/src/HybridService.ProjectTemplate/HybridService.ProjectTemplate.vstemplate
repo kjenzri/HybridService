@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>HybridService</Name>
+    <Description>An HybridService is a console application program that can be installed as Windows service.</Description>
+    <Icon>HybridService.ProjectTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>b39271a9-13ef-44e3-80c0-aa93cbd84e7e</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Service</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" >InstallUtil.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" >Service1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" >ProjectInstaller.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" >ProjectInstaller.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" >ProjectInstaller.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" >packages.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,2 @@
+﻿installutil /ServiceName=HybridService C:\tfs.codeplex\hybridservice\HybridService\HybridService.Example\bin\Debug\HybridService.Example.exe
+installutil /u C:\tfs.codeplex\hybridservice\HybridService\HybridService.Example\bin\Debug\HybridService.Example.exe

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>HybridService</id>
+        <version>1.0.0</version>
+        <title>HybridService</title>
+        <authors>K. JENZRI</authors>
+        <projectUrl>https://hybridservice.codeplex.com/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Hybrid Service provide base class to enhance Windows Service development experience.
+
+An Hybrid Service will start as a Console Application when run outside service context (for example during development, testing....). When the Hybrid Service is deployed it will run as a classic Windows Service.</description>
+    </metadata>
+    <files>
+        <file src="..\..\HybridService.Core\bin\Release\HybridService.Core.dll" target="lib\HybridService.Core.dll" />
+    </files>
+</package>

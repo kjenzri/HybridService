@@ -1,0 +1,2 @@
+﻿installutil /ServiceName=$safeprojectname$ <SERVICE_FOLDER_PATH>\$safeprojectname$.exe
+installutil /u /ServiceName=$safeprojectname$ <SERVICE_FOLDER_PATH>\$safeprojectname$.exe

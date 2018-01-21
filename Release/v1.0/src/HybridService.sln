@@ -1,0 +1,191 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridService.Core", "HybridService.Core\HybridService.Core.csproj", "{220D2877-CACC-4928-BB86-761EACE4BC93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridService.Example", "HybridService.Example\HybridService.Example.csproj", "{4F6CA1EB-2DE8-4D44-8DFE-239FC215F828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridService.Wcf", "HybridService.Wcf\HybridService.Wcf.csproj", "{7E3A0497-AD3D-4B2C-A1E1-CCE3E9E17A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridService.Wcf.Example", "HybridService.Wcf.Example\HybridService.Wcf.Example.csproj", "{C35E0363-49FF-4DD4-9225-81D1384F949C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridService.Wcf.Example.Client", "HybridService.Wcf.Example.Client\HybridService.Wcf.Example.Client.csproj", "{0AB129BC-E465-4497-87B2-9ACAB178FE8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridService.Wcf.Example.Contract", "HybridService.Wcf.Example.Contract\HybridService.Wcf.Example.Contract.csproj", "{E1D90766-C891-465E-B5F1-E91240AB18E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F4D34798-A52D-4568-95F8-3A47E6B02357}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wcf", "Wcf", "{7F9F9D8C-5FCF-44E7-BDBC-077A06EBF961}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wcf.Example", "Wcf.Example", "{B1F7C21C-A4E1-410D-B206-E0E33E0DBE56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wcf.Unity", "Wcf.Unity", "{F1A11524-4348-4BF1-AFD4-C5789B043278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridService.Wcf.Unity", "HybridService.Wcf.Unity\HybridService.Wcf.Unity.csproj", "{4DB3F612-C65F-4F8D-B81B-E629799C7E16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridService.Wcf.Unity.Example", "HybridService.Wcf.Unity.Example\HybridService.Wcf.Unity.Example.csproj", "{573EE1CC-0B87-4848-8964-D6950AC53697}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{19182E45-22BF-41D0-A14A-04C074C8BB57}"
+	ProjectSection(SolutionItems) = preProject
+		log4netConfig.xml = log4netConfig.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridService.ProjectTemplate", "HybridService.ProjectTemplate\HybridService.ProjectTemplate.csproj", "{37D145CF-062A-4A17-8006-1CF853F39C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridService.ProjectTemplate.Extension", "HybridService.ProjectTemplate.Extension\HybridService.ProjectTemplate.Extension.csproj", "{A474277D-D349-4F3B-953B-A45AE37D331A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridService.Wcf.ProjectTemplate", "HybridService.Wcf.ProjectTemplate\HybridService.Wcf.ProjectTemplate.csproj", "{9DC3BBEE-9601-48F3-81F3-0E09519D8028}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridService.Wcf.ProjectTemplate.Extension", "HybridService.Wcf.ProjectTemplate.Extension\HybridService.Wcf.ProjectTemplate.Extension.csproj", "{8DCB92EA-6BDA-4B16-9D8D-91A3CBB3DFBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridService.Wcf.Unity.ProjectTemplate", "HybridService.Wcf.Unity.ProjectTemplate\HybridService.Wcf.Unity.ProjectTemplate.csproj", "{9A614324-E143-4F26-A033-36B88A98E1F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridService.Wcf.Unity.ProjectTemplate.Extension", "HybridService.Wcf.Unity.ProjectTemplate.Extension\HybridService.Wcf.Unity.ProjectTemplate.Extension.csproj", "{2579BD2D-B8FC-4EEB-9785-1E5DB7DD75A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{220D2877-CACC-4928-BB86-761EACE4BC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220D2877-CACC-4928-BB86-761EACE4BC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220D2877-CACC-4928-BB86-761EACE4BC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220D2877-CACC-4928-BB86-761EACE4BC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F6CA1EB-2DE8-4D44-8DFE-239FC215F828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6CA1EB-2DE8-4D44-8DFE-239FC215F828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6CA1EB-2DE8-4D44-8DFE-239FC215F828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6CA1EB-2DE8-4D44-8DFE-239FC215F828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E3A0497-AD3D-4B2C-A1E1-CCE3E9E17A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E3A0497-AD3D-4B2C-A1E1-CCE3E9E17A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E3A0497-AD3D-4B2C-A1E1-CCE3E9E17A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E3A0497-AD3D-4B2C-A1E1-CCE3E9E17A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C35E0363-49FF-4DD4-9225-81D1384F949C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C35E0363-49FF-4DD4-9225-81D1384F949C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C35E0363-49FF-4DD4-9225-81D1384F949C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C35E0363-49FF-4DD4-9225-81D1384F949C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB129BC-E465-4497-87B2-9ACAB178FE8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB129BC-E465-4497-87B2-9ACAB178FE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB129BC-E465-4497-87B2-9ACAB178FE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB129BC-E465-4497-87B2-9ACAB178FE8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D90766-C891-465E-B5F1-E91240AB18E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D90766-C891-465E-B5F1-E91240AB18E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D90766-C891-465E-B5F1-E91240AB18E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D90766-C891-465E-B5F1-E91240AB18E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB3F612-C65F-4F8D-B81B-E629799C7E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB3F612-C65F-4F8D-B81B-E629799C7E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB3F612-C65F-4F8D-B81B-E629799C7E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB3F612-C65F-4F8D-B81B-E629799C7E16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{573EE1CC-0B87-4848-8964-D6950AC53697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{573EE1CC-0B87-4848-8964-D6950AC53697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{573EE1CC-0B87-4848-8964-D6950AC53697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{573EE1CC-0B87-4848-8964-D6950AC53697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D145CF-062A-4A17-8006-1CF853F39C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D145CF-062A-4A17-8006-1CF853F39C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D145CF-062A-4A17-8006-1CF853F39C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D145CF-062A-4A17-8006-1CF853F39C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A474277D-D349-4F3B-953B-A45AE37D331A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A474277D-D349-4F3B-953B-A45AE37D331A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A474277D-D349-4F3B-953B-A45AE37D331A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A474277D-D349-4F3B-953B-A45AE37D331A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC3BBEE-9601-48F3-81F3-0E09519D8028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC3BBEE-9601-48F3-81F3-0E09519D8028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC3BBEE-9601-48F3-81F3-0E09519D8028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC3BBEE-9601-48F3-81F3-0E09519D8028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DCB92EA-6BDA-4B16-9D8D-91A3CBB3DFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DCB92EA-6BDA-4B16-9D8D-91A3CBB3DFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DCB92EA-6BDA-4B16-9D8D-91A3CBB3DFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DCB92EA-6BDA-4B16-9D8D-91A3CBB3DFBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A614324-E143-4F26-A033-36B88A98E1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A614324-E143-4F26-A033-36B88A98E1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A614324-E143-4F26-A033-36B88A98E1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A614324-E143-4F26-A033-36B88A98E1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2579BD2D-B8FC-4EEB-9785-1E5DB7DD75A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2579BD2D-B8FC-4EEB-9785-1E5DB7DD75A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2579BD2D-B8FC-4EEB-9785-1E5DB7DD75A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2579BD2D-B8FC-4EEB-9785-1E5DB7DD75A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{220D2877-CACC-4928-BB86-761EACE4BC93} = {F4D34798-A52D-4568-95F8-3A47E6B02357}
+		{4F6CA1EB-2DE8-4D44-8DFE-239FC215F828} = {F4D34798-A52D-4568-95F8-3A47E6B02357}
+		{7E3A0497-AD3D-4B2C-A1E1-CCE3E9E17A19} = {7F9F9D8C-5FCF-44E7-BDBC-077A06EBF961}
+		{C35E0363-49FF-4DD4-9225-81D1384F949C} = {B1F7C21C-A4E1-410D-B206-E0E33E0DBE56}
+		{0AB129BC-E465-4497-87B2-9ACAB178FE8D} = {B1F7C21C-A4E1-410D-B206-E0E33E0DBE56}
+		{E1D90766-C891-465E-B5F1-E91240AB18E3} = {B1F7C21C-A4E1-410D-B206-E0E33E0DBE56}
+		{4DB3F612-C65F-4F8D-B81B-E629799C7E16} = {F1A11524-4348-4BF1-AFD4-C5789B043278}
+		{573EE1CC-0B87-4848-8964-D6950AC53697} = {B1F7C21C-A4E1-410D-B206-E0E33E0DBE56}
+		{37D145CF-062A-4A17-8006-1CF853F39C50} = {F4D34798-A52D-4568-95F8-3A47E6B02357}
+		{A474277D-D349-4F3B-953B-A45AE37D331A} = {F4D34798-A52D-4568-95F8-3A47E6B02357}
+		{9DC3BBEE-9601-48F3-81F3-0E09519D8028} = {7F9F9D8C-5FCF-44E7-BDBC-077A06EBF961}
+		{8DCB92EA-6BDA-4B16-9D8D-91A3CBB3DFBE} = {7F9F9D8C-5FCF-44E7-BDBC-077A06EBF961}
+		{9A614324-E143-4F26-A033-36B88A98E1F1} = {F1A11524-4348-4BF1-AFD4-C5789B043278}
+		{2579BD2D-B8FC-4EEB-9785-1E5DB7DD75A6} = {F1A11524-4348-4BF1-AFD4-C5789B043278}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 15
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs40
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HybridService.Core\\HybridService.Core.csproj
+		SccProjectTopLevelParentUniqueName1 = HybridService.sln
+		SccProjectName1 = HybridService.Core
+		SccLocalPath1 = HybridService.Core
+		SccProjectUniqueName2 = HybridService.Example\\HybridService.Example.csproj
+		SccProjectTopLevelParentUniqueName2 = HybridService.sln
+		SccProjectName2 = HybridService.Example
+		SccLocalPath2 = HybridService.Example
+		SccProjectUniqueName3 = HybridService.Wcf\\HybridService.Wcf.csproj
+		SccProjectTopLevelParentUniqueName3 = HybridService.sln
+		SccProjectName3 = HybridService.Wcf
+		SccLocalPath3 = HybridService.Wcf
+		SccProjectUniqueName4 = HybridService.Wcf.Example\\HybridService.Wcf.Example.csproj
+		SccProjectTopLevelParentUniqueName4 = HybridService.sln
+		SccProjectName4 = HybridService.Wcf.Example
+		SccLocalPath4 = HybridService.Wcf.Example
+		SccProjectUniqueName5 = HybridService.Wcf.Example.Client\\HybridService.Wcf.Example.Client.csproj
+		SccProjectTopLevelParentUniqueName5 = HybridService.sln
+		SccProjectName5 = HybridService.Wcf.Example.Client
+		SccLocalPath5 = HybridService.Wcf.Example.Client
+		SccProjectUniqueName6 = HybridService.Wcf.Example.Contract\\HybridService.Wcf.Example.Contract.csproj
+		SccProjectTopLevelParentUniqueName6 = HybridService.sln
+		SccProjectName6 = HybridService.Wcf.Example.Contract
+		SccLocalPath6 = HybridService.Wcf.Example.Contract
+		SccProjectUniqueName7 = HybridService.Wcf.Unity\\HybridService.Wcf.Unity.csproj
+		SccProjectTopLevelParentUniqueName7 = HybridService.sln
+		SccProjectName7 = HybridService.Wcf.Unity
+		SccLocalPath7 = HybridService.Wcf.Unity
+		SccProjectUniqueName8 = HybridService.Wcf.Unity.Example\\HybridService.Wcf.Unity.Example.csproj
+		SccProjectTopLevelParentUniqueName8 = HybridService.sln
+		SccProjectName8 = HybridService.Wcf.Unity.Example
+		SccLocalPath8 = HybridService.Wcf.Unity.Example
+		SccProjectUniqueName9 = HybridService.ProjectTemplate\\HybridService.ProjectTemplate.csproj
+		SccProjectTopLevelParentUniqueName9 = HybridService.sln
+		SccProjectName9 = HybridService.ProjectTemplate
+		SccLocalPath9 = HybridService.ProjectTemplate
+		SccProjectUniqueName10 = HybridService.ProjectTemplate.Extension\\HybridService.ProjectTemplate.Extension.csproj
+		SccProjectTopLevelParentUniqueName10 = HybridService.sln
+		SccProjectName10 = HybridService.ProjectTemplate.Extension
+		SccLocalPath10 = HybridService.ProjectTemplate.Extension
+		SccProjectUniqueName11 = HybridService.Wcf.ProjectTemplate\\HybridService.Wcf.ProjectTemplate.csproj
+		SccProjectTopLevelParentUniqueName11 = HybridService.sln
+		SccProjectName11 = HybridService.Wcf.ProjectTemplate
+		SccLocalPath11 = HybridService.Wcf.ProjectTemplate
+		SccProjectUniqueName12 = HybridService.Wcf.ProjectTemplate.Extension\\HybridService.Wcf.ProjectTemplate.Extension.csproj
+		SccProjectTopLevelParentUniqueName12 = HybridService.sln
+		SccProjectName12 = HybridService.Wcf.ProjectTemplate.Extension
+		SccLocalPath12 = HybridService.Wcf.ProjectTemplate.Extension
+		SccProjectUniqueName13 = HybridService.Wcf.Unity.ProjectTemplate\\HybridService.Wcf.Unity.ProjectTemplate.csproj
+		SccProjectTopLevelParentUniqueName13 = HybridService.sln
+		SccProjectName13 = HybridService.Wcf.Unity.ProjectTemplate
+		SccLocalPath13 = HybridService.Wcf.Unity.ProjectTemplate
+		SccProjectUniqueName14 = HybridService.Wcf.Unity.ProjectTemplate.Extension\\HybridService.Wcf.Unity.ProjectTemplate.Extension.csproj
+		SccProjectTopLevelParentUniqueName14 = HybridService.sln
+		SccProjectName14 = HybridService.Wcf.Unity.ProjectTemplate.Extension
+		SccLocalPath14 = HybridService.Wcf.Unity.ProjectTemplate.Extension
+	EndGlobalSection
+EndGlobal
